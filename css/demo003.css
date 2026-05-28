@@ -1,0 +1,2773 @@
+ body{
+  color: black;
+background-color: white;
+  width: 100%;
+ margin: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrp{
+    width: 100%; height: 600px;
+    position: relative;
+}
+.imagenPortada{
+
+  background-attachment: scroll;
+}
+
+.portada{
+width: 100%;
+height: 650px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+background-size: 100%; 
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+}
+
+.contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: rgba(0,0,11,0.6);*/
+}
+.contenido .info{
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+   margin-top: 370px;
+
+}
+.contenido .info .nuestraBoda{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: -95px;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres1{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres2{
+  font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #4897C3;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 300ms ease;
+    letter-spacing: 0.5px; /*Para separar un poco las letras*/
+}
+.contenido .info a:hover{
+    background: transparent; /*Fondo transparente*/
+    border: 2px solid #fff;
+}
+.curveado{
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+.curveado img{
+    width: 100%;
+
+}
+.curveado2{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+}
+.curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+
+@media(max-width:768px){
+    .contenido .info h1{
+        font-size: 35px;
+    }    
+}
+.contenido3{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenido3 .info3{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    margin-top: 200px;
+}
+.contenido3 .info3 .nuestraBoda3{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: -95px;
+    letter-spacing: 6px;
+}
+.contenido3 .info3 .nombres3{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+}
+p{
+  margin-bottom: 0px;
+  margin-left: : 0px;
+  font-size: 1.2rem;
+}
+
+img{
+  width: 100%;
+}
+a{
+  display: inline-block;
+ 
+  text-decoration: none;
+
+}
+
+h3{
+  color:#121D25;
+}
+
+ul{
+  text-align: center;
+  z-index: 99;
+
+  
+}
+div.row{
+   margin-right: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
+}
+
+.portada2{
+width: 100%;
+height: 700px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+}
+.playpause {
+
+}
+
+.playpause:hover {
+
+}
+
+.playpause .button {
+
+}
+
+.playpause.playing .button {
+
+}
+.nombres1{
+font-family: 'Great Vibes', cursive;
+  margin-top:100px;
+  color:#6F7163;
+  font-size: 100px;
+  font-weight: 570;
+
+}
+.and1{
+font-family: 'Arizonia', cursive;
+margin-top: -10px;
+  color:6F7163;
+  font-size: 38px;
+
+}
+.nombres2{
+font-family: 'Great Vibes', cursive;
+
+margin-top: -10px;
+  margin-bottom: 30px;
+  color:#6F7163;
+  font-size: 38px;
+;
+
+}
+#carrusel{
+  border-color: #ecf7fd; 
+  margin-top:-70px;
+}
+
+.faltan{
+ font-family: 'Cormorant Garamond', serif;
+  margin-top:120px;
+  color:#621132;
+  font-size: 25px;
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.imagen1{
+  display: block;
+  margin: auto;
+}
+.imagen3{
+
+  display: block;
+  margin: auto;
+}
+
+
+}
+
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+
+}
+
+@media (max-width:320px){
+
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 270px;
+
+}
+.contenido .info .nuestraBoda{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: -95px;
+    letter-spacing: 6px;
+       text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres1{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+       text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres2{
+  font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+       text-shadow: 2px 2px 4px #000000;
+}
+
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #4897C3;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 300ms ease;
+    letter-spacing: 0.5px; /*Para separar un poco las letras*/
+}
+.contenido .info a:hover{
+    background: transparent; /*Fondo transparente*/
+    border: 2px solid #fff;
+}
+.curveado{
+    position: absolute;
+    width: 100%;
+    bottom: 130px;
+}
+.curveado img{
+    width: 100%;
+
+}
+.curveado2{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+}
+#subir{
+  margin-top: -132px;
+}
+#bajar{
+  margin-bottom: -132px;
+}
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+
+}
+
+@media (min-width: 1200px) { /*laptop*/
+  .nombres{
+font-family: 'Tangerine', cursive;
+  margin-top:40px;
+  color:#E5CA5E;
+  font-size: 85px;
+  font-weight: 570;
+
+}
+}
+.simply-section {
+  background: #d6dfed;
+  width: 120px;
+  height: 80px;
+  margin: 0 50px;
+  margin:5px;
+  border-top: 0px solid #9d6a99;
+  border-bottom: 0px solid #9d6a99;
+  border-right: 0px solid #9d6a99;
+  border-left: 0px solid #9d6a99;
+  border-color: #9d6a99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+  display: block;
+  font-size: 25px;
+  color:#26455c;
+  font-weight: 1000;
+   font-family: 'Cantata One', serif;
+}
+
+.simply-word {
+  color:#26455c;
+  font-weight: 400;
+  font-size: 14px;
+   font-family: 'Cantata One', serif;
+}
+.fondoMeGradue{
+width: 100%;
+height: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+
+}
+.nosCasamos{
+font-family: 'Cantata One', serif;
+  margin-top:;
+  color:white;
+  font-size: 20px;
+  letter-spacing: 6px;
+
+}
+.textoNosCasamos{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  margin-top:0px;
+  color:white;
+  font-size: 23px;
+  margin-bottom: 10px;
+
+}
+.estasinvitado{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color:white;
+  font-size: 35px;
+
+
+}
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:120px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 35px;
+
+}
+
+@media (max-width:376px){
+
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:30px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
+}
+.imagen2{
+  
+  background-color:#D6D0B4 ;
+ border-top: 7px solid #D6D0B4;
+  border-bottom: 7px solid #D6D0B4;
+  border-right: 7px solid #D6D0B4;
+  border-left: 7px solid #D6D0B4;
+  border-color: #D6D0B4;
+  width: 100%;
+}
+.tiendas{
+  border-radius: 20px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  border-color: gray;
+  background-color: white;
+}
+.collage{
+
+  
+  border-color: black;
+  color:black;
+  background-color: transparent;
+  text-align: center;
+}
+.dia{
+  margin-top: -10px;
+ font-family: 'Cantata One', serif;
+  font-size: 40px;
+  color:#fff;
+  background: linear-gradient(to bottom, #26455c, #26455c);
+height:80px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+z-index: 999;
+box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.75);
+
+}
+.mes{
+  
+    font-family: 'Cantata One', serif;
+  font-size: 13px;
+  color:#26455c;
+  background: linear-gradient(to left, #d6dfed, #d6dfed);
+  
+height:40px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+letter-spacing: 3px;
+
+
+}
+.mes2{
+  
+    font-family: 'Cantata One', serif;
+  font-size: 13px;
+  color:#26455c;
+  background: linear-gradient(to right, #d6dfed, #d6dfed);
+height:40px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+letter-spacing: 1px;
+
+}
+.año{
+font-family: 'Cantata One', serif;
+  font-size: 45px;
+  color:#9e7700;
+  letter-spacing: 4px;
+  margin-top: -13px;
+}
+.dondeycuandotitulo{
+  font-family: 'Updock', cursive;
+  font-size: 30px;
+  color:#26455c;
+  letter-spacing: 1px;
+}
+.hora{
+  font-family: 'Updock', cursive;
+  font-size: 30px;
+  color:#26455c;
+  margin-top: -10px;
+}
+.lugar{
+font-family: 'Cantata One', serif;
+ color:#26455c;
+  font-size: 12px;
+  letter-spacing: 3px;
+
+}
+
+.dondeycuando{
+  background-color: black;
+}
+.dondeyCuando{
+font-family: 'Cantata One', serif;
+  margin-top:10px;
+  margin-bottom: -20px;
+  color:#26455c;
+  font-size: 20px;
+  opacity: 1;
+
+}
+.dondeyCuando2{
+font-family: 'Cantata One', serif;
+  margin-top:10px;
+  color:#9e7700;
+  font-size: 20px;
+  letter-spacing: 7px;
+  opacity: .9;
+
+}
+.padresypadrinos{
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #D6D0B4;
+
+  
+  background-color: transparent;
+  opacity: 1;
+  text-align: center;
+}
+.porqueformas{
+   font-family: 'Cantata One', serif;
+  font-size: 15px;
+  color:#26455c;
+  letter-spacing: 1px;
+}
+.porqueformas1{
+   font-family: 'Cantata One', serif;
+  font-size: 16px;
+  color:#26455c;
+  letter-spacing: 2px;
+}
+.tespero3{
+  
+ 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:16px;
+}
+.tespero{
+   text-shadow: 2px 2px 4px #000000;
+  margin-top: -190px; 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:16px;
+}
+.tespero2{
+   text-shadow: 2px 2px 4px #000000;
+  margin-top: -130px; 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:16px;
+}
+.nompadres{
+  font-family: 'Updock', cursive;
+  font-size: 28px;
+    color:#26455c;
+    font-weight: 570;
+    z-index: 99;
+}
+.and{
+  font-family: 'Updock', cursive;
+ font-size:140px;
+ margin-top: -95px;
+ margin-bottom: -60px;
+    color:#26455c;
+    opacity: .2;
+    
+}
+.textodondeycuando{
+  color:#26455c;
+  font-size: 12px;
+font-family: 'Cantata One', serif;
+
+}
+.textodondeycuando2{
+  color:#7c5548;
+  font-size: 14px; 
+  letter-spacing: 4px;
+font-family: 'Cantata One', serif;
+text-shadow: 0px 0px 0px;
+
+}
+.lluviaSobres{
+  color:#26455c;  
+  font-family: 'Updock', cursive; 
+  font-size: 35px;
+}
+.lluviaSobrestexto{
+  color:#26455c;  
+  font-family: 'Playfair Display', serif; 
+  font-size:15px
+}
+.iconoLluviaSobres{
+  font-size: 40px; 
+  color:#26455c;
+
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 280px;
+
+}
+.contenido .info .nuestraBoda{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: -95px;
+    letter-spacing: 6px;
+       text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres1{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+       text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres2{
+  font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+       text-shadow: 2px 2px 4px #000000;
+}
+
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #4897C3;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 300ms ease;
+    letter-spacing: 0.5px; /*Para separar un poco las letras*/
+}
+.contenido .info a:hover{
+    background: transparent; /*Fondo transparente*/
+    border: 2px solid #fff;
+}
+.curveado{
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+}
+.curveado img{
+    width: 100%;
+
+}
+.curveado2{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+}
+#subir{
+  margin-top: -27px;
+}
+#bajar{
+  margin-bottom: -25px;
+}
+
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.tespero{
+   text-shadow: 2px 2px 4px #000000;
+  margin-top: -300px; 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:15px;
+}
+.dondeyCuando{
+font-family: 'Cantata One', serif;
+  margin-top:10px;
+  margin-bottom: -20px;
+  color:#26455c;
+  font-size: 20px;
+  opacity: .7;
+
+}
+.dondeyCuando2{
+font-family: 'Cantata One', serif;
+  margin-top:10px;
+  color:#9e7700;
+  font-size: 20px;
+  letter-spacing: 7px;
+  opacity: .9;
+
+}
+.dia{
+  margin-top: -10px;
+ font-family: 'Cantata One', serif;
+  font-size: 40px;
+  color:#fff;
+  background: linear-gradient(to bottom, #26455c, #26455c);
+height:80px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+z-index: 999;
+box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.75);
+
+}
+.mes{
+  
+    font-family: 'Cantata One', serif;
+  font-size: 13px;
+  color:#7c5548;
+  background: linear-gradient(to left, #d6dfed, #d6dfed); 
+height:40px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+letter-spacing: 3px;
+
+
+}
+.mes2{
+  
+    font-family: 'Cantata One', serif;
+  font-size: 13px;
+  color:#7c5548;
+  background: linear-gradient(to right, #d6dfed, #d6dfed);
+height:40px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+letter-spacing: 1px;
+
+}
+.año{
+font-family: 'Cantata One', serif;
+  font-size: 45px;
+  color:#9e7700;
+  letter-spacing: 4px;
+  margin-top: -13px;
+}
+.porqueformas{
+   font-family: 'Cantata One', serif;
+  font-size: 15px;
+  color:#26455c;
+  letter-spacing: 3px;
+}
+.porqueformas1{
+   font-family: 'Cantata One', serif;
+  font-size: 16px;
+  color:#26455c;
+  letter-spacing: 2px;
+}
+.tespero{
+   text-shadow: 2px 2px 4px #000000;
+  margin-top: -300px; 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:15px;
+}
+}
+@media (max-width:320px){
+
+.dondeyCuando{
+font-family: 'Cantata One', serif;
+  margin-top:10px;
+  margin-bottom: -20px;
+  color:#26455c;
+  font-size: 15px;
+  opacity: .7;
+
+}
+.dondeyCuando2{
+font-family: 'Cantata One', serif;
+  margin-top:10px;
+  color:#9e7700;
+  font-size: 15px;
+  letter-spacing: 7px;
+  opacity: .9;
+
+}
+.dia{
+  margin-top: -10px;
+ font-family: 'Cantata One', serif;
+  font-size: 30px;
+  color:#fff;
+  background: linear-gradient(to bottom, #26455c, #26455c);
+height:80px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+z-index: 999;
+box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.75);
+
+}
+.mes{
+  
+    font-family: 'Cantata One', serif;
+  font-size: 10px;
+  color:#7c5548;
+  background: linear-gradient(to left, #d6dfed, #d6dfed);
+height:40px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+letter-spacing: 3px;
+
+
+}
+.mes2{
+  
+    font-family: 'Cantata One', serif;
+  font-size: 10px;
+  color:#7c5548;
+  background: linear-gradient(to right, #d6dfed, #d6dfed);
+height:40px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+letter-spacing: 1px;
+
+}
+.año{
+font-family: 'Cantata One', serif;
+  font-size: 35px;
+  color:#9e7700;
+  letter-spacing: 4px;
+  margin-top: -13px;
+}
+.porqueformas{
+   font-family: 'Cantata One', serif;
+  font-size: 13px;
+  color:#26455c;
+  letter-spacing: 3px;
+}
+.porqueformas1{
+   font-family: 'Cantata One', serif;
+  font-size: 14px;
+  color:#26455c;
+  letter-spacing: 2px;
+}
+.tespero{
+ text-shadow: 2px 2px 4px #000000;
+  margin-top: -200px; 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:13px;
+}
+.tespero2{
+   text-shadow: 2px 2px 4px #000000;
+  margin-top: -120px; 
+  color:#fff;  
+  font-family: 'Playfair Display', serif; 
+  font-size:13px;
+}
+.nompadres{
+  font-family: 'Updock', cursive;
+  font-size: 20px;
+    color:#26455c;
+    font-weight: 570;
+    z-index: 99;
+}
+.and{
+  font-family: 'Updock', cursive;
+ font-size:140px;
+ margin-top: -95px;
+ margin-bottom: -60px;
+    color:#26455c;
+    opacity: .2;
+    
+}
+
+.dondeycuandotitulo{
+  font-family: 'Updock', cursive;
+  font-size: 25px;
+  color:#26455c;
+  letter-spacing: 1px;
+}
+.hora{
+  font-family: 'Updock', cursive;
+  font-size: 30px;
+  color:#26455c;
+  margin-top: -10px;
+}
+.lugar{
+font-family: 'Cantata One', serif;
+ color:#26455c;
+  font-size: 12px;
+  letter-spacing: 3px;
+
+}
+
+.textodondeycuando{
+  color:#26455c;
+  font-size: 11px;
+font-family: 'Cantata One', serif;
+
+}
+.textodondeycuando2{
+  color:#7c5548;
+  font-size: 14px; 
+  letter-spacing: 4px;
+font-family: 'Cantata One', serif;
+text-shadow: 0px 0px 0px;
+
+}
+.lluviaSobres{
+  color:#26455c;  
+  font-family: 'Updock', cursive; 
+  font-size: 25px;
+}
+.lluviaSobrestexto{
+  color:#26455c;  
+  font-family: 'Playfair Display', serif; 
+  font-size:11px
+}
+.iconoLluviaSobres{
+  font-size: 30px; 
+  color:#26455c;
+
+}
+}
+
+.familiaboleto{
+font-family: 'Arapey', serif;
+  font-size: 30px;
+  color:7c5548;
+  background-color: #9D927A; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.apellidos{
+font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+
+.invitacionpara{
+font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color:#26455c;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Cinzel Decorative', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color:#7c5548;
+  letter-spacing: 4px;
+}
+
+
+
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.familiaboleto{
+font-family: 'Arapey', serif;
+  font-size: 30px;
+  color:white;
+  background-color: #9D927A; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.apellidos{
+font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+
+.invitacionpara{
+font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color:#26455c;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Cinzel Decorative', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color:#7c5548;
+  letter-spacing: 4px;
+}
+
+
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+@media (max-width:320px){
+
+.familiaboleto{
+font-family: 'Arapey', serif;
+  font-size: 30px;
+  color:white;
+  background-color: #9D927A; 
+height:50px; 
+display:flex;
+justify-content: center; 
+align-items: center;
+
+}
+.apellidos{
+font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
+
+.invitacionpara{
+font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color:#26455c;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Cinzel Decorative', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'Arapey', serif;
+  font-size: 15px;
+  color:#7c5548;
+  letter-spacing: 4px;
+}
+
+.respetuosamente{
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+.textodondeycuando{
+  color:#26455c;
+  font-size: 11px; 
+font-family: 'Cantata One', serif;
+text-shadow: 0px 0px 0px;
+
+}
+.textodondeycuando2{
+  color:#7c5548;
+  font-size: 12px; 
+  letter-spacing: 4px;
+font-family: 'Cantata One', serif;
+text-shadow: 0px 0px 0px;
+
+}
+}
+.formulario{
+  margin-left: -10px;
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+.padres{
+   box-shadow: 0 0 20px white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: white;
+
+  
+  background-color: 184547;
+  text-align: center;
+}
+.ceremoniaReligiosa{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  
+  background-color:transparent;
+  text-align: center;
+}
+
+.itinerario{
+  border-top: 0px solid #E5CA5E;
+  border-bottom: 0px solid #E5CA5E;
+  border-right: 0px solid #E5CA5E;
+  border-left: 0px solid #E5CA5E;
+  
+
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  background-color: #fff;
+  text-align: center;
+}
+
+
+
+.vestimenta{
+
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  border-color: #fff;
+  color:black;
+  background-color: #fff;
+  outline: 15px solid #fff;
+
+  border-top-right-radius: 30px 30px;
+border-bottom-left-radius: 30px 30px;
+
+}
+.mesaregalos{
+
+  border-top: 2px solid #26455c;
+  border-bottom: 2px solid #26455c;
+  border-right: 2px solid #26455c;
+  border-left: 2px solid #26455c;
+  border-color: #26455c;
+  color:black;
+  background-color: #fff;
+  outline: 30px solid #fff;
+    /*box-shadow: 10px 25px 25px rgba(0,0,0,0.5);*/
+
+}
+.lluvia{
+  
+  color:#D6D0B4;
+  background-color: #fff;
+
+  border-bottom-right-radius: 30px 30px;
+border-top-left-radius: 30px 30px;
+  
+}
+.boletos{
+
+  border-top: 2px solid #E5CA5E;
+  border-bottom: 2px solid #E5CA5E;
+  border-right: 2px solid #E5CA5E;
+  border-left: 2px solid #E5CA5E;
+  
+  border-color: #26455c;
+  background-color: #fff;
+  color:#26455c;
+  
+  text-align: center;
+}
+
+.carrusel{
+  border-top: 6px solid black;
+  border-bottom: 6px solid white;
+  border-right: 6px solid white;
+  border-left: 6px solid white;
+  
+  border-color: #9d6a99;
+
+  color:black;
+  
+ 
+}
+#slider2{
+   border-top: 4px solid black;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  border-left: 4px solid white;
+  
+  border-color: #26455c;
+
+  color:black;
+ 
+}
+.hotel{
+  margin-top: -50px;
+  color:#7c5548;
+  font-size: 18px;
+font-family: 'Cantata One', serif;
+letter-spacing: 5px;
+ text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+
+}
+
+#carousel .carousel-caption  h2 {
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+.imagen{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    align-content: center;
+}
+
+
+.carousel2 {
+  background: white;
+  border-radius: 10px; 
+box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+
+  }
+  .carousel2 .carousel-item {
+    height: 300px;
+    border-radius: 5px;  
+
+  }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px; 
+      top: 0;
+      left: 0;
+      border-color: black;
+
+       }
+@media (min-width: 1000px) {
+    .carousel2 .carousel-item {
+    height: 500px; }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+       }
+}
+
+.padrinos{
+  border-radius: 50%;
+}
+
+.textoSeccionPadrinos{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:10px;
+  color:gray;
+  font-size: 20px;
+  margin-bottom: 50px;
+
+}
+
+.mesaRegalos{
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 400;
+  margin-top:10px;
+  color:gray;
+  font-size: 12px;
+  margin-bottom: 50px;
+
+}
+.tiendas{
+  border-radius: 20px;
+  box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
+  border-color: gray;
+  background-color: white;
+}
+
+.datosBancarios{
+  font-family: 'Meera Inimai', sans-serif;
+  font-weight: 400;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+
+.Tituloasistencia{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color:#AA006F;
+
+}
+
+.textoasistencia{
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 400;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+.Tituloasistenciaespero{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  margin-bottom: 80px;
+  color:#AA006F;
+
+}
+.titulo{
+  
+  color: #7E4C0D ;
+  
+
+
+}
+.btnwhats .textowhats{
+  size:10px;
+}
+.btnWhats{
+  text-decoration:none;
+  color:white;
+  border-color: #25D366;
+  background-color: transparent;
+  height: 40px;
+  
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 99;
+}
+
+.btnForm{
+  border-top: 0px solid ;
+  border-bottom: 0px solid ;
+  border-right: 0px solid ;
+  border-left: 0px solid ;
+  border-color: #D6C5B2;
+  text-decoration: none;
+  color:#fff;
+  background: linear-gradient(to bottom, #8d6b2f, #ecd094); 
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnForm:hover{
+
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-right: 2px solid ;
+  border-left: 2px solid ;
+  border-color: #26455c;
+  text-decoration: none;
+   background: linear-gradient(to bottom, #fff, #fff);
+  font-family: 'Arapey', serif; 
+  font-size: 15px;
+  color:#26455c;
+  height: 45px;
+}
+.btnComoLlegar{
+  text-decoration: none;
+  color:#FFF;
+  background: linear-gradient(to bottom, #9e7700, #9e7700);
+  font-family: 'Cantata One', serif;
+  font-size: 11px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background: linear-gradient(to bottom, #fff, #fff);
+  font-family: 'Cantata One', serif; 
+  font-size: 11px;
+  color:#9e7700;
+  height: 45px;
+  letter-spacing: 2px;
+
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-right: 2px solid ;
+  border-left: 2px solid ;
+  border-color: #9e7700;
+}
+.mujeres{
+color:#7c5548;  
+font-family: 'Cantata One', serif;
+font-size: 13px; 
+letter-spacing: 3px;
+margin-left: -18px;
+}
+.mujeres2{
+color:#26455c;  
+font-family: 'Cantata One', serif;
+font-size: 13px; 
+letter-spacing: 3px;
+margin-left: -15px;
+}
+.hombres{
+color:#7c5548;  
+font-family: 'Cantata One', serif; 
+font-size: 13px;
+letter-spacing: 3px;
+}
+.hombres2{
+color:#26455c;  
+font-family: 'Cantata One', serif; 
+font-size: 13px;
+letter-spacing: 3px;
+margin-left: 5px;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 15px;
+}
+}
+@media (max-width:320px){
+.mujeres{
+color:#7c5548;  
+font-family: 'Cantata One', serif;
+font-size: 10px; 
+letter-spacing: 3px;
+margin-left: -30px;
+}
+.mujeres2{
+color:#26455c;  
+font-family: 'Cantata One', serif;
+font-size: 20px; 
+letter-spacing: 3px;
+margin-left: -15px;
+}
+.hombres{
+color:#7c5548;  
+font-family: 'Cantata One', serif; 
+font-size: 10px;
+letter-spacing: 3px;
+margin-left: -15px;
+}
+.hombres2{
+color:#26455c;  
+font-family: 'Cantata One', serif; 
+font-size: 13px;
+letter-spacing: 3px;
+margin-left: 5px;
+}
+.btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 12px;
+  background: linear-gradient(to bottom, #8d6b2f, #ecd094);
+}
+.btnComoLlegar{
+  text-decoration: none;
+  color:#FFF;
+  background: linear-gradient(to bottom, #8d6b2f, #ecd094);
+  font-family: 'Cantata One', serif;
+  font-size: 9px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+}
+
+
+@media (min-width: 1200px) { /*laptop*/
+  .portada{
+
+    
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 35%;
+background-position: center;
+display: block;
+  margin: auto;
+
+}
+  .imagenPortada{
+    
+  }
+  .curveado{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+}
+.curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.curveado2{
+    
+    width: 100%;
+    bottom: -140px;
+}
+#subir{
+  margin-top:20px;
+}
+#bajar{
+  border-bottom:-200px;
+}
+#mesas{
+  margin-bottom: 100px;
+}
+.imagen1{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen4{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.mujeres{
+color:#7c5548;  
+font-family: 'Cantata One', serif;
+font-size: 10px; 
+letter-spacing: 3px;
+margin-left: -30px;
+}
+.mujeres2{
+color:#26455c;  
+font-family: 'Cantata One', serif;
+font-size: 20px; 
+letter-spacing: 3px;
+margin-left: 15px;
+}
+.hombres{
+color:#7c5548;  
+font-family: 'Cantata One', serif; 
+font-size: 10px;
+letter-spacing: 3px;
+margin-left: -15px;
+}
+.hombres2{
+color:#26455c;  
+font-family: 'Cantata One', serif; 
+font-size: 13px;
+letter-spacing: 3px;
+margin-left: 25px;
+
+}
+.player-with-search{
+margin: 0 auto;
+justify-content: center;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+}
+.btnWhats{
+  text-decoration:none;
+  color:#25D366;
+  background-color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #25D366;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cantata One', serif;
+}
+
+
+.btnWhats:hover{
+  text-decoration:none;
+  background-color: #25D366;
+  color: white;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: white;
+ 
+}
+.btnWhatsNovios{
+   font-family: 'Cantata One', serif;
+  text-decoration:none;
+  color:#fff;
+  background-color: #9e7700;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-right: 3px solid ;
+  border-left: 3px solid ;
+  border-color: #9e7700;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btnWhatsNovios:hover{
+  text-decoration:none;
+  background-color: transparent;
+  color: #9e7700;
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-right: 2px solid ;
+  border-left: 2px solid ;
+  border-color: #9e7700;
+ 
+}
+
+.btnHoteles{
+  font-family: 'Cantata One', serif;
+letter-spacing: 3px;
+  text-decoration:none;
+  height: 50px;
+  font-size: 12px;
+
+background-color:#26455c; 
+color:white;
+display:flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.btnHoteles:hover{
+  text-decoration:none;
+  color: #26455c;
+   border-top: 2px solid #26455c;
+  border-bottom: 2px solid #26455c;
+  border-right: 2px solid #26455c;
+  border-left: 2px solid #26455c;
+  border-color: #26455c;
+  background-color: white;
+
+ 
+}
+
+.menu{
+  color: #121D25;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 0px;
+}
+.table {
+  background: black;
+  position: sticky;
+  color:black;
+  margin-bottom: 9px;
+  top:0; 
+}
+
+.badge{
+  background-color: black;
+}
+.cuerpo{
+width: 100%;
+  background: transparent; 
+  color:#121D25;
+z-index: -1;
+margin-top: 0px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 17px;
+
+
+}
+
+.desactivado{
+    margin-top: 320px;
+  font-size: 35px;
+
+
+
+}
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 13px;
+
+
+
+}
+@media (max-width:320px){
+  
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 10px;
+
+}
+.badge{
+  font-size: 9px;
+ 
+}
+}
+
+.precio{
+
+  margin-left: -20px;
+}
+
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #FFE8F7;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+  .loader_bg img{
+    display:inline-block;
+    vertical-align:middle;
+    margin-top: -40px;
+    margin-left: 8px;
+    animation-name:pulse_animation;animation-duration:2500ms;
+    transform-origin:50% 50%;animation-timing-function:ease-in-out}
+    @media (min-width: 375px){
+.loader_bg img{max-width:180px !important;max-height:180px !important}}
+@keyframes pulse_animation{0%{transform:scale(1)}100%{transform:scale(1.7)}}
+   
+ 
+.progress{position:relative;height:4px;display:block;width:100%;background-color:#F4F4F4;border-radius:2px;background-clip:padding-box;margin:0 auto;overflow:hidden}
+.progress .loading-bar{background-color:#797d80}
+.progress .indeterminate:before{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite}
+.progress .indeterminate:after{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;-webkit-animation-delay:1.15s;animation-delay:1.15s}@-webkit-keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}
+@keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@-webkit-keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}@keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}
+
+
+#scroll {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#26455c;
+    border-color: #9B7A07;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+    z-index:9999px;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#9e7700;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+.pie{
+  background: #621132;
+  border-top: solid 1px white;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  color:white;
+  height: 100px;
+  position:relative;
+  z-index: -1;
+  text-decoration:none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.piepag {
+  font-size: 2rem;
+  text-align: center;
+  z-index: -1;
+  color:#121D25;
+  font-family: 'Oleo Script Swash Caps', sans-serif;
+
+}
+.center{display:table;width:100%;background-color: black;
+margin-top:-25px;
+margin-bottom:;}
+#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
+#social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
+#social-test .social{padding-left:0}
+#social-test a{color:#909090;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid rgba(167,146,129,.4);cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
+#social-test a:hover{color:#fff;border:1px solid #ccc}
+.social:hover>a{opacity:.5}
+.social:hover>a:hover{opacity:1}
+
+.form-register {
+  width: 100%;
+  background: #FFF ;
+  padding: 30px;
+  margin: auto;
+  margin-top:;
+
+  font-family: 'calibri', serif;
+  color: #6F7163;
+}
+
+.controls {
+  width: 100%;
+  background: #fff ;
+  padding: 10px;
+  
+  margin-bottom: 16px;
+  border-top: 0px solid #E5E5E5;
+  border-right: 0px solid #E5E5E5;
+  border-bottom: 3px solid #26455c;
+  border-left: 3px solid #26455c;
+  
+font-family: 'calibri', serif;
+  font-size: 18px;
+  color: black;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: #9B7A07;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  align-self: center;
+  background: white;
+  border: none;
+  padding: 12px;
+  color: #9B7A07;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/* The container must be positioned relative: */
+.custom-select2 {
+  background-color: #fff;
+  color: #9B7A07;
+  position: relative;
+  font-family: 'calibri', serif;
+  font-size: 20px;
+  border-top: 0px solid #E5E5E5;
+  border-right: 0px solid #E5E5E5;
+  border-bottom: 3px solid #26455c;
+  border-left: 3px solid #26455c;
+}
+
+.custom-select2 select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #E5E5E5 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #E5E5E5 transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: black;
+  margin-left: 10px;
+  padding: ;
+  border: 1px solid #E5E5E5;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #E5E5E5;
+  top: 100%;
+  height: 70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+  #particles-js{
+            background: transparent;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -1;
+        }
+
+/* INTRO SECTION
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #000;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 100;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #E5CA5E;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #E5CA5E transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #E5CA5E;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #E5CA5E;
+}
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #E5CA5E transparent transparent;
+  }
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #696969;
+
+}
+audio::-webkit-media-controls-mute-button {
+  background-color: #ecf7fd;
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button{
+  background-color: #ecf7fd;
+  border-radius: 50%;
+  color:white;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #ecf7fd;
+  color: white;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #26455c;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #26455c;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: #fff;
+  color:transparent;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+audio::-webkit-media-controls-volume-slider {
+  background-color: #fff;
+  border-radius: 25px;
+  
+}
+
+.iniciales{
+  font-family: 'Arapey', serif;
+  color:#D6D0B4;
+  font-size: 50px;
+  height: 80px;
+  background-color:#6F7163;
+  text-align: center;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px #696969;
+}
+.inicialesFoto{
+  color:#BFB291;
+ 
+  background-color:#D6D0B4;
+  text-align: center;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.textoIniciales{
+  font-size: 35px;
+  font-weight: 500;
+}
+@media (max-width:320px){
+  .textoIniciales{
+  font-size: 30px;
+  font-weight: 500;
+  position: sticky;top: 20px;
+}
+.entrada{
+  margin-top: -200px;
+}
+
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.wrp{
+    width: 100%; height: 570px;
+    position: relative;
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 280px;
+
+}
+.contenido .info .nuestraBoda{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: -95px;
+    letter-spacing: 6px;
+       text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres1{
+ font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+       text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres2{
+  font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+       text-shadow: 2px 2px 4px #000000;
+}
+}
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
+    .portada{
+
+    
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 50%;
+background-position-x: center;
+display: block;
+  margin: auto;
+
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 260px;
+
+}
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+    .portada{
+
+    
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 55%;
+background-position-x: center;
+display: block;
+  margin: auto;
+
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 260px;
+
+}
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {/*iPAD PRO*/
+    .portada{
+
+    
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 40%;
+background-position-x: center;
+display: block;
+  margin: auto;
+
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 250px;
+
+}
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {/*SURFACE PRO7*/
+    .portada{
+
+    
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 50%;
+background-position-x: center;
+display: block;
+  margin: auto;
+
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 260px;
+
+}
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 853px) and (device-height: 1280px) and (orientation:portrait) {/*ASUS ZENBOOK*/
+    .portada{
+
+    
+
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+background-image: url(../img/A&E-1346.jpeg); 
+position: relative; 
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 50%;
+background-position-x: center;
+display: block;
+  margin: auto;
+
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 260px;
+
+}
+
+}
+
+@media only screen /*IPHONE 12*/
+     and (device-width: 390px) 
+     and (device-height: 844px) 
+     and (-webkit-device-pixel-ratio: 3) {
+      .wrp{
+
+    width: 100%; height: 555px;
+    position: relative;
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 340px;
+
+}
+}
+
+@media (max-width:344px){
+  .wrp{
+
+    width: 100%; height: 520px;
+    position: relative;
+}
+.contenido .info{
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+   margin-top: 240px;
+
+}
+}
+
+.player-with-search{
+margin: 0 auto;
+justify-content: center;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-with-search,
+#player-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    
+}
+#player-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 50px;
+  background-color: #fff;
+  color: white;
+
+}
+
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: left;
+  padding: 12px 18px;
+  z-index: 2;
+  background-image: url(../img/play.svg);
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  background-color: #26455c;
+  border-radius: 50%;
+
+
+}
+
+
+.play {
+  
+}
+
+.pause {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==) !important;
+}
+
+#timeline {
+  width: 60%;
+  height: 8px;
+  background: #c8c8c8;
+
+  z-index: 9;
+  position: absolute;
+
+}
+
+#scrub {
+  height: 5px;
+  background-color: #9e7700;
+  border: none;
+  color: hsl(44, 100%, 44%);
+  float: left;
+
+}
+
+#playhead {
+  width: 5px;
+  height: 5px;
+  background: #fff;
+}
+
+.item-inner {
+  display: block;
+  float: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  -ms-flex-item-align: stretch;
+  -webkit-align-self: stretch;
+  align-self: stretch;
+}
+#time-holder {
+  font-family: 'Cantata One', serif;
+  font-size: 15px;
+  
+  margin-top: 0px;
+  color: #26455c;
+}
+div#is-right,
+div#is-left {
+  display: inline;
+  bottom: auto;
+  padding: 3px 7px;
+  padding-left: 0;
+}
+.progress-locator ul {
+  list-style-type: none;
+  counter-reset: css-counter 0; /* initializes counter to 0; use -1 for zero-based numbering */
+}
+.progress-locator li {
+  counter-increment: css-counter 1; /* Increase the counter by 1. */
+  display: flex;
+  gap: 9px;
+}
+.progress-locator li:before {
+  content: counter(css-counter) ". "; /* Apply counter before children's content. */
+}
+
